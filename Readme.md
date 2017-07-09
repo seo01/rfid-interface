@@ -15,8 +15,8 @@ Install & Setup
 1. Copy all the Media files you want to able play into the Media folder (only MP3s in this version).
 1. Create a file inside the Media folder called `data.tsv`.
 1. This is a Tab-Separated-Value file. There is one line for every RFID card you want to use. The format for a line is `Card ID	Action	(Argument)`. Currently only two actions are supported: `play`, which takes the name of a file as an argument and `stop` which takes no arguments. A typical file would look like this:
-```
-0012845757	play	ShakeItOff.mp3
-0006119194	stop
-```
-1. Launch Musicorum by clicking on the Icon, and your good to go.
+   ```
+   0012845757	play	ShakeItOff.mp3
+   0006119194	stop
+   ```
+1. Launch Musicorum by clicking on the Icon, and you're good to go.
